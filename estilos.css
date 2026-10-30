@@ -49,37 +49,7 @@ body {
 }
 
 
-/* ===== Versión tablet ===== */
-@media (min-width: 600px) {
-
-    .fila-4 {
-        flex-direction: row;
-    }
-
-    .fila-4 .morado {
-        flex: 1;
-    }
-
-    .fila-1 .amarillo { width: 25%; }
-    .fila-2 .amarillo { width: 33%; }
-    .fila-3 .amarillo { width: 50%; }
-    .fila-4 .amarillo { width: 33%; }
-    .fila-5 .amarillo { width: 25%; }
-}
-
-
-
-@media (min-width: 1024px) {
-
-    .fila-1 .amarillo { width: 75%; }
-    .fila-2 .amarillo { width: 25%; }
-    .fila-3 .amarillo { width: 75%; }
-    .fila-4 .amarillo { width: 25%; }
-    .fila-5 .amarillo { width: 50%; }
-}
-
-
-
+/* ===== Media query: cambio de color SOLO en tablet ===== */
 @media (min-width: 600px) and (max-width: 1023px) {
 
     .morado {
@@ -88,6 +58,7 @@ body {
 }
 
 
+/* ===== Media query: tamaños de tablet ===== */
 @media (min-width: 600px) {
 
     .fila-4 {
@@ -106,6 +77,7 @@ body {
 }
 
 
+/* ===== Media query: computador ===== */
 @media (min-width: 1024px) {
 
     .fila-1 .amarillo { width: 75%; }
